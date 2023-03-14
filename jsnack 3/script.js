@@ -6,4 +6,4 @@ let total = 0
 for (let i = 0; i < 10; i++) {
     total += Number(prompt('Insert a number'))
 }
-console.log(total)
+console.log(`The sum of all the inserted numbers is ${total}`)
