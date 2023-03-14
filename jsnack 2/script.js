@@ -10,5 +10,5 @@ if(firstWord.length < secondWord.length) {
 } else if (secondWord.length < firstWord.length) {
     console.log(`the shortest word is ${secondWord} and the longest is ${firstWord}`)  
 } else {
-    console.log('the length of both words are the same')
+    console.log('the length of both words is the same')
 }
