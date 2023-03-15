@@ -11,4 +11,15 @@ for(let i = 0; i < 6; i++) {
         oddList.push(number)
     }
 }
+console.log(oddList) 
+
+/* While loop */
+let j = 0;
+while( j < 6 ) {
+    const number = Number(prompt('Insert a number'))
+    if (number % 2 != 0) {
+        oddList.push(number)
+    }
+    j++
+}
 console.log(oddList)
